@@ -24,7 +24,7 @@ while True:
 
     palavra_digitada = input("\n").upper()
 
-    if len(palavra_digitada) > len_palavra_secreta:
+    if len(palavra_digitada) != len_palavra_secreta :
         print(f'\nVocê só pode digitar uma palavra com {len_palavra_secreta}')
         continue 
     if (palavra_digitada).upper() == (palavra_secreta.upper()):
